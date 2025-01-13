@@ -22,5 +22,3 @@ app.get('/api/:wallet', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server berjalan di port ${port}`);
 });
-
-module.exports = app;  // Untuk deployment di Vercel
