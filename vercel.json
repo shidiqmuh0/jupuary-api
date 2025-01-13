@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/checkAirdrop.js",
+      "src": "api/index.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/api/checkAirdrop/(.*)",
-      "dest": "/api/checkAirdrop.js"
+      "src": "/api/(.*)",
+      "dest": "/api/index.js"
     }
   ]
 }
