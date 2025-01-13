@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 
 app.use(cors());
 
-app.get('/api/checkAirdrop/:wallet', async (req, res) => {
+app.get('/api/:wallet', async (req, res) => {
     const { wallet } = req.params;
 
     try {
