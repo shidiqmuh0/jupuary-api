@@ -1,0 +1,14 @@
+{
+  "name": "jupuary-airdrop-backend",
+  "version": "1.0.0",
+  "description": "Backend untuk cek airdrop Jupuary menggunakan Express dan Axios",
+  "main": "api/checkAirdrop.js",
+  "scripts": {
+    "start": "node api/checkAirdrop.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
